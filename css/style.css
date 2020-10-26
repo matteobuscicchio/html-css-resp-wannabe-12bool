@@ -72,7 +72,7 @@ img {
   clear: both;
 }
 
-@media all and (min-width: 769px) and (max-width: 1200px) {
+@media all and (min-width: 769px) and (max-width: 992px) {
   body, .row{
     background-color: #99e6ff;
   }
@@ -82,7 +82,7 @@ img {
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 0px) and (max-width: 768px) {
   body, .row{
     background-color: white;
   }
